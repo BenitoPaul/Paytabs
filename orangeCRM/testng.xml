@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+   <parameter name = "UserName" value="TestABC11"/>
+   <parameter name = "LName" value="Lname11"/>
+     <parameter name = "Password" value="Test@123456"/>
+    <classes>
+      <class name="orangeCRM.orangeCRM.components"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
